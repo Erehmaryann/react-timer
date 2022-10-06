@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import useCountdown from "../../src/hooks";
+import Bg from "../../src/assets/clock.mp4";
 
 const Event = () => {
   const [timeVal, setTimeVal] = useState(0);
@@ -17,7 +18,7 @@ const Event = () => {
     <div className="event-page">
       {/* Video Background */}
       <video className="video-background" loop muted autoPlay>
-        <source src="../../src/assets/clock.mp4" type="video/mp4" />
+        <source src={Bg} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
       <div className="video-overlay"></div>
