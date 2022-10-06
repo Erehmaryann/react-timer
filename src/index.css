@@ -110,6 +110,7 @@ a:hover {
   border-radius: 5px;
   z-index: 2;
   background-color: rgba(255, 255, 255, 0.85);
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
 /* Button */
